@@ -15,12 +15,12 @@ php server.php
 # Config
 **src/config/.env**
 <br/>
-	- MAX_CONN : https://www.swoole.co.uk/docs/modules/swoole-server/configuration#max_conn
-	- QUEUE_TABEL_SIZE: This table is resposible for storing queues payloads. https://www.swoole.co.uk/docs/modules/swoole-table-construct
-	- IGNORE_NO_LISTENERS: 0 or 1 , if 0 the server will not dispatch the queues if there is no >= 1 listener.
-	- BUFFER_OUTPUT_SIZE: https://www.swoole.co.uk/docs/modules/swoole-server/configuration#buffer_output_size
-	- REACTOR_NUM: https://www.swoole.co.uk/docs/modules/swoole-server/configuration#reactor_num
-	- WORKER_NUM: https://www.swoole.co.uk/docs/modules/swoole-server/configuration#worker_num
+- MAX_CONN : https://www.swoole.co.uk/docs/modules/swoole-server/configuration#max_conn
+- QUEUE_TABEL_SIZE: This table is responsible to store queues payloads. https://www.swoole.co.uk/docs/modules/swoole-table-construct
+- IGNORE_NO_LISTENERS: 0 or 1 , if 0 the server will not dispatch the queues if there is no >= 1 listener.
+- BUFFER_OUTPUT_SIZE: https://www.swoole.co.uk/docs/modules/swoole-server/configuration#buffer_output_size
+- REACTOR_NUM: https://www.swoole.co.uk/docs/modules/swoole-server/configuration#reactor_num
+- WORKER_NUM: https://www.swoole.co.uk/docs/modules/swoole-server/configuration#worker_num
 # How to use it / examples
 See the examples/ folder
 # Observers
