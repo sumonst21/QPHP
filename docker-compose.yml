@@ -1,0 +1,13 @@
+version: "3"
+networks:
+  php-queue:
+services:
+ php-queue:
+  container_name: php-queue
+  build: ./php
+  ports:
+   - "15673:15673"
+  volumes:
+   - ./src/:/var/www/qphp
+  networks:
+   - php-queue
