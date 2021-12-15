@@ -12,6 +12,7 @@ docker-compose exec php-queue bash
 cd queue-worker
 php server.php
 ```
+Running port is : 15674
 # Config
 **src/config/.env**
 <br/>
