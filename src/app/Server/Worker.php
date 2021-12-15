@@ -28,9 +28,8 @@ class Worker {
 
 	/**
 	 * This method will start infinit loop to iterate over stored queues and stored connections (listenres).
-	 * There is two types of dispatch 
-	 * 		1. Direct dispatch : no channel (tube) , this will dispatch the queue to all listeners.
-	 * 		2. Using channel : This will dispatch the queue only to the listeners joined the channel
+	 * There is one type of dispatch 
+	 * 		1. Using channel : This will dispatch the queue only to the listeners joined the channel
 	 */
 	public function handle($process) {
 		while(true) {
