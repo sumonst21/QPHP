@@ -8,7 +8,7 @@ docker-compose build
 Run : 
 ```
 docker-compose up
-docker-compose exec PHP queue-bash
+docker-compose exec php-queue bash
 cd queue-worker
 php server.php
 ```
